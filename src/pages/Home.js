@@ -3,7 +3,7 @@ import React from 'react';
 export default function Home() {
   return (
     <div>
-      <HeroSection />
+     <h1>fowejkdrfe</h1>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroImg from '../assets/images/hero.png';
-import './hero.scss';
+import './hero.css';
 
 export default function HeroSection() {
     return (

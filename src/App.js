@@ -1,9 +1,10 @@
 import { Layout } from 'antd';
-import 'antd/dist/antd.css';
 import React from 'react';
-import './App.scss';
+import './App.css';
 import AppFooter from './layout/footer';
 import AppHeader from './layout/header';
+
+const { Content } = Layout;
 
 
 function App() {
@@ -11,6 +12,11 @@ function App() {
         <div className="App">
             <Layout className="layout">
                 <AppHeader />
+                 <Content>
+                    <div className="site-layout-content">
+                        <Home />
+                    </div>
+                </Content>
                 <AppFooter />
             </Layout>
         </div>

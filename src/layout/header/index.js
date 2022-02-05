@@ -1,6 +1,5 @@
 import { Layout, Menu } from 'antd';
 import React from 'react';
-import './header.scss';
 
 
 const { Header } = Layout;

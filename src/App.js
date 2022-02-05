@@ -1,3 +1,5 @@
+import { Button } from 'antd';
+import 'antd/dist/antd.css';
 import React from 'react';
 import './App.scss';
 
@@ -5,7 +7,7 @@ import './App.scss';
 function App() {
     return (
         <div className="title">
-             <h1>Hello World</h1>
+             <Button type="primary">Button</Button>
         </div>
     );
 }

@@ -1,0 +1,27 @@
+.about__img {
+  height: 450px;
+  background-color: var(--black);
+  opacity: 0.8;
+}
+.a__img {
+  /* border-radius: 5px; */
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border: 2px solid var(--gray-1);
+}
+.about_title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-align: start;
+  font-family: Montserrat, sans-serif;
+  font-size: 45px;
+}
+.p_text {
+  color: var(--gray);
+  font-size: 14px;
+  line-height: 30px;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 15px;
+}

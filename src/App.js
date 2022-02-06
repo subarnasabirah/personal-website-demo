@@ -1,6 +1,10 @@
 import { Layout } from 'antd';
+import 'antd/dist/antd.css';
 import React from 'react';
 import './App.css';
+import AppFooter from './layout/footer';
+import AppHeader from './layout/header';
+import Home from './pages/Home';
 
 
 
@@ -10,7 +14,9 @@ function App() {
     return (
         <div className="App">
             <Content>
-                <h1>refwererfd</h1>
+                <AppHeader />
+                <Home />
+                 <AppFooter />
             </Content>
         </div>
     );

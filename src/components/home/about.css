@@ -1,10 +1,12 @@
+.about {
+  background-color: var(--dark-bg);
+}
 .about__img {
   height: 450px;
   background-color: var(--black);
   opacity: 0.8;
 }
 .a__img {
-  /* border-radius: 5px; */
   display: block;
   width: 100%;
   height: 100%;
@@ -24,4 +26,79 @@
   line-height: 30px;
   font-family: Poppins, sans-serif;
   margin-bottom: 15px;
+}
+.introduce__text {
+  color: var(--gray);
+  font-size: 18px;
+  word-spacing: 5px;
+  line-height: 20px;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 15px;
+}
+
+/* Education Section style */
+.about__info__items {
+  padding: 20px 30px;
+}
+.about__info__item {
+  margin-bottom: 40px;
+}
+.about__info__heading {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: var(--gray-1);
+}
+
+.education {
+  background-color: var(--rangoon-green);
+}
+.education__items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  margin-top: 10px;
+}
+.title {
+  font-size: 20px;
+  color: var(--gray-1);
+}
+.items {
+  display: flex;
+  position: absolute;
+  left: 130px;
+}
+.item {
+  background-color: var(--black-rgb);
+  padding: 10px;
+  border-radius: 8px;
+  color: var(--gray-1);
+  font-size: 14px;
+}
+.item__1 {
+  color: var(--gray-1);
+  font-size: 14px;
+}
+.skills__items {
+  background-color: var(--black-rgb);
+  padding: 10px;
+  border-radius: 8px;
+  font-family: Poppins, sans-serif;
+}
+.s__name {
+  margin-bottom: 0 !important;
+}
+@media only screen and (max-width: 768px) {
+  .education__items {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .items {
+    position: initial;
+    gap: 1rem;
+  }
+  .title {
+    font-size: 14px;
+  }
 }

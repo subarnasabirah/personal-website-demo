@@ -12,7 +12,7 @@
   z-index: 1;
 }
 .hero_meta {
-  background: rgba(0, 0, 0, 0.8);
+  background: var(--black-rgb);
   padding: 20px 45px;
   border-radius: 8px;
 }

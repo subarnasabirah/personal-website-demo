@@ -12,14 +12,16 @@
   --black: black;
   --gray: rgba(198, 201, 216, 0.75);
   --pink-red: #f9004d;
+  --black-rgb: rgba(0, 0, 0, 0.8);
+  --rangoon-green: #191919;
 }
 html {
   font-size: 10px;
   font-family: "Roboto Mono";
 }
-body {
+/* body {
   background-color: var(--black);
-}
+} */
 ul,
 li {
   list-style: none;
@@ -44,8 +46,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-span {
+h6 {
   font-size: 18px;
   color: var(--white);
   font-family: Poppins, sans-serif;
@@ -90,6 +91,17 @@ span {
   align-items: flex-start;
   justify-content: center;
 }
+.row__1 {
+  width: 100%;
+  overflow: hidden;
+}
+.col__12 {
+  max-width: 100%;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 .col__2 {
   max-width: 50%;
   display: flex;
@@ -130,18 +142,13 @@ input {
 button.btn {
   font-size: 18px;
   font-weight: 500;
-  /* border-radius: 5px; */
-  /* border: 2px solid #f9004d;
-  background-color: #f9004d; */
   background-color: var(--gray-1);
   border: 2px solid var(--gray-1);
   color: var(--black);
-  /* text-transform: uppercase; */
-  /* letter-spacing: 2px; */
   transition: 0.4s all ease;
   height: 50px;
   width: 180px;
-  /* margin: 0px 10px; */
+  margin-top: 20px;
 }
 .p__color {
   color: rgba(198, 201, 216, 0.75);
@@ -152,15 +159,12 @@ button.btn {
 }
 button.about.btn.pointer:hover {
   background: var(--white);
-  color: var(--pink-red);
+  color: var(--gray-1);
   border: 2px solid var(--white);
 }
 /* RESPONSIVE */
 @media only screen and (max-width: 768px) {
   .col__2 {
-    max-width: 100%;
-  }
-  .a__img {
     border-radius: 10px;
   }
 }

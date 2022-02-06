@@ -1,8 +1,11 @@
 import React from 'react';
 import HomeBg from '../assets/images/bg.jpg';
 import AboutSection from '../components/home/AboutSection';
+import ContactBanner from '../components/home/ContactBanner';
+import EducationSection from '../components/home/EducationSection';
 import HeroSection from '../components/home/HeroSection';
 import './Home.css';
+
 
 
 export default function Home() {
@@ -11,7 +14,9 @@ export default function Home() {
       <div className="background-overlay" style={{ backgroundImage:`url(${HomeBg})`, backgroundRepeat:"no-repeat", backgroundSize:"cover", backgroundPosition: "50%", backgroundColor: "#010101", height: "500px",position: "relative"}}>
         <HeroSection />
       </div>
-       <AboutSection />
+      <AboutSection />
+      <EducationSection />
+      <ContactBanner />
     </div>
   );
 }

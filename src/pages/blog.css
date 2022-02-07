@@ -1,0 +1,15 @@
+.blog {
+  background-color: var(--dark-bg);
+  padding: 50px 80px;
+}
+.add__postbtn {
+  font-size: 18px;
+  font-weight: 500;
+  background-color: var(white);
+  border: 2px solid var(white);
+  color: var(--black);
+  transition: 0.4s all ease;
+  height: 50px;
+  width: 180px;
+  margin-bottom: 20px;
+}

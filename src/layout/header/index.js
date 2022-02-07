@@ -12,7 +12,7 @@ function AppHeader() {
             <Header style={{ backgroundColor: "#1e1e1e", color:"#bcb4b4" }}>
                 <Menu  style={{ backgroundColor: "#1e1e1e", color:"#bcb4b4", border:"none" }} mode="horizontal" defaultSelectedKeys={['home']}>
                     <Menu.Item key="home"><Link to="/">Home</Link></Menu.Item>
-                    <Menu.Item key="blog">Blog</Menu.Item>
+                    <Menu.Item key="blog"><Link to="/blog">Blog</Link></Menu.Item>
                     <Menu.Item key="contact"><Link to="/contact">Contact</Link></Menu.Item>
                     
                 </Menu>

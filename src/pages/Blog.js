@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import './blog.css';
 
 export default function Blog() {
-        const [isEditing, setIsEditing] = useState(false);
+    const [isEditing, setIsEditing] = useState(false);
     const [editingPost, setEditingPost] = useState(null);
     const [dataSource, setDataSource] = useState([
         {

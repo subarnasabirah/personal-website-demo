@@ -45,17 +45,13 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Technical Specification
 
 High performance, Unidirectional data flow, and a Small learning curve influence me to choose reactjs for this project,
-another reason is AmarLab Limited, It was a high preference to use reactjs for this project. To develop faster and interactive UI/UX used React UI library `ant`, it also gives some extra benefits like high-quality React components, TypeScript with
-predictable static types and design resources and development tools, etc.
-
-Few more words about project folder structure and coding here you can see a shared folder to use commonly shareable services,
-components, modules, etc. Layout for project basic layout systems like header, footer etc.
+another reason is AmarLab Limited, It was a high preference to use reactjs for this project. To develop faster and interactive UI/UX used React UI library `ant`, it also gives some extra benefits like high-quality React components, design resources and development tools etc.
 
 Maybe it would have been better if I could have been ensured 100% test case, redux selector used, data fetching loading
-state, make API call with pagination, file path Alice and configuration option to change location and radius from UI
-interaction etc. due to the time limitation I am unable to do ensure all of those right now.
+state, make API call with pagination and configuration option to change location and radius from UI
+interaction etc. Due to the time limitation I am unable to do ensure all of those right now.
 
-- CSS folder architecture followed by SMACSS but CSS code writing as OOCSS.
+- CSS folder architecture followed by BEM.
 - React UI library `ant` that contains a set of high-quality components and demos for building rich, interactive user interfaces.
 - Follow the Airbnb design system for JS code writing.
 - Used Prettier for code formatting concerns.

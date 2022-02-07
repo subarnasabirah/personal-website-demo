@@ -1,5 +1,5 @@
 import { DeleteOutlined, EditOutlined } from '@ant-design/icons';
-import { Button, Modal, Table } from 'antd';
+import { Button, Input, Modal, Table } from 'antd';
 import 'antd/dist/antd.css';
 import React, { useState } from 'react';
 import './blog.css';
@@ -9,21 +9,25 @@ export default function Blog() {
     const [editingPost, setEditingPost] = useState(null);
     const [dataSource, setDataSource] = useState([
         {
+            id: 1,
             key: 1,
             title: 'Global Covid cases top 394 million',
             subject: 'Global Covid cases'
         },
-          {
-           key: 2,
+        {
+            id: 2,
+            key: 2,
             title: 'Highway crimes/They hold a knife to the throat',
             subject: 'Highway crimes'
         },
-            {
-           key: 3,
+        {
+            id: 3,
+            key: 3,
             title: 'Bangladesh’s Omicron tally rises to 187',
             subject: 'Bangladesh’s Omicron'
         },
         {
+             id: 4,
             key: 4,
             title: 'BPL Football/Chittagong Abahani beat Rahmatganj, Sheikh Russel draw with Mohammedan',
             subject: 'BPL Football'
@@ -105,18 +109,18 @@ export default function Blog() {
                                 if (post.id === editingPost.id) {
                                     return editingPost
                                 }    
-                            return post   
+                                return post   
                             })
                         )
                          resetEditing();
                     }}
                 >
-                    {/* <Input value={editingPost?.title} onChange={(e) => {
-                        setEditingPost((pre) => { ...pre, title: e.target.value });
+                    <Input value={editingPost?.title} onChange={(e) => {
+                        setEditingPost({ ...editingPost, title: e.target.value });
                     }} />
                     <Input value={editingPost?.subject} onChange={(e) => {
-                        setEditingPost((pre) => { ...pre, subject: e.target.value });
-                    }} /> */}
+                        setEditingPost({ ...editingPost, subject: e.target.value });
+                    }} />
                     
 
                 </Modal>

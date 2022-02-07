@@ -1,18 +1,31 @@
-# Getting Started with Create React App
+# AmarLab Limited Front End Developer Recruitment Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Installation
 
-## Available Scripts
+**Clone the repository or Download**
+
+```bash
+git clone git@github.com/subarnasabirah/personal-website-demo.git
+
+```
+
+To install dependencies open the project directory into terminal and run this command.
+
+```bash
+npm install
+```
+
+**To serve the application the below commands**
 
 In the project directory, you can run:
 
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
 ### `npm test`
 
@@ -29,42 +42,21 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Technical Specification
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+High performance, Unidirectional data flow, and a Small learning curve influence me to choose reactjs for this project,
+another reason is AmarLab Limited, It was a high preference to use reactjs for this project. To develop faster and interactive UI/UX used React UI library `ant`, it also gives some extra benefits like high-quality React components, TypeScript with
+predictable static types and design resources and development tools, etc.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Few more words about project folder structure and coding here you can see a shared folder to use commonly shareable services,
+components, modules, etc. Layout for project basic layout systems like header, footer etc.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Maybe it would have been better if I could have been ensured 100% test case, redux selector used, data fetching loading
+state, make API call with pagination, file path Alice and configuration option to change location and radius from UI
+interaction etc. due to the time limitation I am unable to do ensure all of those right now.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- CSS folder architecture followed by SMACSS but CSS code writing as OOCSS.
+- React UI library `ant` that contains a set of high-quality components and demos for building rich, interactive user interfaces.
+- Follow the Airbnb design system for JS code writing.
+- Used Prettier for code formatting concerns.
+- Used Eslint to be flexible and configurable for the use case.

@@ -1,12 +1,12 @@
 .blog {
   background-color: var(--dark-bg);
-  padding: 50px 80px;
+  padding: 60px 80px;
 }
 .add__postbtn {
   font-size: 18px;
   font-weight: 500;
-  background-color: var(white);
-  border: 2px solid var(white);
+  background-color: var(--gray-1);
+  border: 2px solid var(--gray-1);
   color: var(--black);
   transition: 0.4s all ease;
   height: 50px;

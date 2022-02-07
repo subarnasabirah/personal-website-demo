@@ -15,21 +15,19 @@ const { Content } = Layout;
 
 function App() {
     return (
-            <Router>
-                <div className="App">
-                    <Content>
+        <Router>
+            <div className="App">  
+                <Content>
                     <AppHeader />
-                    <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/contact" element={<Contact />} />
-                        <Route path="/blog" element={<Blog />} />
-                    </Routes>
+                        <Routes>
+                            <Route path="/" element={<Home />} />
+                            <Route path="/contact" element={<Contact />} />
+                            <Route path="/blog" element={<Blog />} />
+                        </Routes>
                     <AppFooter />
-                    </Content>
-                </div>
-            </Router>
-         
-            
+                 </Content>
+            </div>
+        </Router>    
     );
 }
 

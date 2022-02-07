@@ -1,6 +1,6 @@
 .contact__styled {
   background-color: var(--dark-bg);
-  padding: 50px 80px;
+  padding: 60px 80px;
 }
 .contactSection__wrapper {
   display: flex;
@@ -41,7 +41,6 @@
   max-width: 500px;
   width: 100%;
   border-radius: 12px;
-  /* padding-left: 3rem; */
 }
 @media only screen and (max-width: 768px) {
   .contactSection__wrapper {
@@ -98,6 +97,7 @@ svg {
 }
 
 /* Contact Form Styled */
+
 .contactform__style {
   width: 100%;
 }
@@ -138,36 +138,63 @@ button[type="submit"] {
 }
 
 /* Map style */
-.map__deign {
+.m-style {
   position: relative;
 }
-.map__card {
+.m-style::before {
+  content: "";
   position: absolute;
-  right: 10%;
-  bottom: 10%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  );
+}
+.p-text {
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  line-height: 1.3em;
+  color: var(--gray-1);
+  @media only screen and (max-width: 768px) {
+    font-size: 1.4rem;
+  }
+}
+.m-card {
+  position: absolute;
+  left: 30%;
+  bottom: 8%;
   padding: 2rem;
   background: var(--deep-dark);
   width: 100%;
   max-width: 300px;
   border-radius: 12px;
 }
-.map__card__heading {
+.m-card-heading {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: var(--gray-1);
 }
-.map__card__link {
+.m-card-link {
   display: inline-block;
   font-size: 1.6rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   text-decoration: underline;
+  color: var(--gray-1);
 }
 @media only screen and (max-width: 768px) {
-  .map__deign {
+  .m-deign {
     background-position: 80% center;
   }
 }
 @media only screen and (max-width: 400px) {
-  .map__card {
+  .m-card {
     max-width: none;
     right: auto;
   }

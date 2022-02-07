@@ -98,7 +98,7 @@ export default function Blog() {
         <div className="blog">
             <div className="blog__header">
                 <Button className="add__postbtn" onClick={onAddPost}>Add a new Post</Button>
-                <Table columns={columns} dataSource={dataSource}></Table>
+                <Table style={{ backgroundColor: "#1e1e1e", color:"#bcb4b4" }} columns={columns} dataSource={dataSource}></Table>
                 <Modal
                     title="Edit Post"
                     visible={isEditing}

@@ -79,7 +79,7 @@ h6 {
   padding: 10px 0px;
 }
 .sweet {
-  color: #f9004d;
+  color: var(--pink-red);
 }
 .row {
   display: flex;
@@ -131,7 +131,7 @@ svg {
   position: absolute;
 }
 strong {
-  color: #f9004d;
+  color: var(--pink-red);
   font-weight: 600;
 }
 input {

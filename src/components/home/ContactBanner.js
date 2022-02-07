@@ -8,7 +8,7 @@ export default function ContactBanner() {
                 <p className="project__mind">Have a project in mind</p>
                 <h3 className="contactBanner__heading">Let me help you</h3>
                 <div className="about__button  align__items__center">
-                    <a href="# : "><button className="about btn pointer">Contact Now</button></a>
+                    <button type="button" className="about btn pointer">Contact Now</button>
                 </div>
             </div>
         </div>

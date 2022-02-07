@@ -18,3 +18,9 @@
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
   color: var(--pink-red) !important;
 }
+.ant-menu-item a {
+  color: var(--gray-1);
+}
+.ant-menu-horizontal > .ant-menu-item a {
+  color: var(--gray-1);
+}

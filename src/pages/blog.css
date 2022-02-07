@@ -13,3 +13,8 @@
   width: 180px;
   margin-bottom: 20px;
 }
+.add__postbtn:hover {
+  background-color: var(white);
+  border: 2px solid var(white);
+  color: var(--gray-1);
+}
